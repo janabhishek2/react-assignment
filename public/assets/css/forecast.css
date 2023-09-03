@@ -1,0 +1,25 @@
+.forecast__main {
+    width: 80%;
+    margin: auto;
+}
+
+.forecast__header {
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    height: auto;
+    background-color: #8E44AD;
+    margin: auto;
+    padding: 0.5rem 0rem;
+}
+
+.forecast__content {
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    height: auto;
+    margin: auto;
+    padding: 0.5rem 0rem;
+}

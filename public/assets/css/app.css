@@ -1,0 +1,31 @@
+.margin__top_md {
+    margin-top: 2rem;
+}
+
+.margin__top_sm {
+    margin-top: 1rem;
+}
+
+.margin__top_xs {
+    margin-top: 0.5rem;
+}
+
+.margin__top_lg {
+    margin-top: 3rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.margin-auto {
+    margin: auto;
+}

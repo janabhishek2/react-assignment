@@ -1,0 +1,31 @@
+.currentWeather__main {
+    margin: auto;
+    width: 80%;
+}
+
+.currentWeather__cityName {
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    height: auto;
+    background-color: #8E44AD;
+    margin: auto;
+    padding: 0.5rem 0rem;
+}
+
+.currentWeather__svg {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    height: auto;
+}
+
+.currentWeather__temperature {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    height: auto;
+}
