@@ -1,6 +1,9 @@
 .selectCity__label {
     color: white;
     font-weight: bolder;
+    margin: auto;
+    width: 80%;
+    text-align: left;
 }
 
 .selectCity__main {
