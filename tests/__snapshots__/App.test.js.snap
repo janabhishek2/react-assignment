@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App render shallow render App componentn 1`] = `
+<CityContextProvider>
+  <WeatherApp />
+</CityContextProvider>
+`;

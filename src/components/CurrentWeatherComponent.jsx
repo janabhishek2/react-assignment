@@ -8,7 +8,6 @@ function CurrentWeatherComponent() {
   const { city: selectedCity, cityCurrData, isCityCurrLoading } = useCityState();
   const dispatch = useCityDispatch();
   const { lat, lon, id: selectedCityId } = selectedCity;
-  console.log(selectedCity);
   const { weather = [], main: { temp } = {}, id: cityDataId = '' } = cityCurrData || {};
   const { id = '' } = weather[0] || [];
 

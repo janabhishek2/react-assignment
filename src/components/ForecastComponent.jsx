@@ -37,7 +37,7 @@ function ForecastComponent() {
       <div className='forecast__header flex justify-content-space-between text-align-center'>
         {
           nextData.map(item => {
-            return <div className='forecast__header_item margin-auto'>
+            return <div className='forecast__header_item margin-auto' key={item.dt} >
                 { WEEKDAYS[new Date(item.dt_txt).getDay()] }
             </div>
           })
@@ -49,7 +49,7 @@ function ForecastComponent() {
             const { id: weatherId } = item.weather[0] || {};
             const { main: {temp_max = '', temp_min = '' } = {} } = item || {};
             return (
-              <div className='margin-auto'>
+              <div className='margin-auto' key={item.dt}>
                 <div className={`wi wi-icon-${weatherId}`}></div>
                 <div className='margin__top_sm'>{temp_max}</div>
                 <div className='margin__top_sm'>{temp_min}</div>

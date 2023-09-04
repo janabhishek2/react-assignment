@@ -18,7 +18,7 @@ const SET_CITY_FORECAST_DATA = 'set_city_forecase_data';
 const SET_CITY_CURR_LOADING = 'set_city_curr_loading';
 const SET_CITY_FORECAST_LOADING = 'set_city_forecast_loading';
 
-const cityReducer = (state = intitialState, action) => {
+export const cityReducer = (state = intitialState, action) => {
     switch (action.type) {
         case SET_CITY: {
             return {

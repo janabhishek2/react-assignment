@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Forecast Forecast - Forecast data to be fetched -na 1`] = `
+<ForecastComponent>
+  <div
+    className="margin__top_md forecast__main"
+  >
+    <div
+      className="forecast__header flex justify-content-space-between text-align-center"
+    />
+    <div
+      className="forecast__content flex justify-content-space-between text-align-center margin__top_sm"
+    />
+  </div>
+</ForecastComponent>
+`;

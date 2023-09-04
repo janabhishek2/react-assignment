@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CurrentWeather CurrentWeather - CurrentWeather-fetch-data available 1`] = `
+<CurrentWeatherComponent>
+  <div
+    className="currentWeather__main margin__top_sm"
+  >
+    <div
+      className="currentWeather__cityName"
+    >
+      ABBEVILLE
+    </div>
+    <div
+      className="currentWeather__svg margin__top_sm wi wi-icon-"
+    />
+    <div
+      className="currentWeather__temperature margin__top_sm"
+    />
+  </div>
+</CurrentWeatherComponent>
+`;
