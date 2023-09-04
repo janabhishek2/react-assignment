@@ -7,7 +7,8 @@
     "start": "webpack serve --config config/webpack.dev.js",
     "build": "webpack --config config/webpack.prod.js",
     "test": "jest --updateSnapshot",
-    "coverage": "jest --coverage"
+    "coverage": "jest --coverage",
+    "prettier:write": "prettier --write src/** tests/**/*.js config/** *.js"
   },
   "devDependencies": {
     "@babel/cli": "^7.16.0",
@@ -15,6 +16,7 @@
     "@babel/helper-validator-identifier": "^7.10.4",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
     "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "prettier": "^2.8.7",
     "@babel/plugin-transform-runtime": "^7.10.5",
     "@babel/preset-env": "7.10.4",
     "@babel/preset-react": "7.10.4",
